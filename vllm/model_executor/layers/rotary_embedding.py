@@ -633,8 +633,8 @@ class DeepseekScalingRotaryEmbedding(RotaryEmbedding):
         *,
         extrapolation_factor: float = 1,
         attn_factor: float = 1,
-        beta_fast: float = 32,
-        beta_slow: float = 1,
+        beta_fast: int = 32,
+        beta_slow: int = 1,
         mscale: float = 1,
         mscale_all_dim: float = 0,
     ) -> None:
